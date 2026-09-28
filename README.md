@@ -5,8 +5,11 @@ An autonomous, vision-guided pick-and-transfer system. An IR break-beam sensor d
 *Independent senior design project, B.S. Electrical & Computer Engineering Technology, NJIT (Spring 2026). Author: Erick Palomeque.*
 
 <p align="center">
-  <img src="media/live_detection.png" width="420" alt="Live detection: marble bounded at 0.89 confidence, servos running, cycle counter">
+  <img src="media/demo.gif" width="420" alt="Full system running: marble detected, servo arm transfers it to the exit chute">
+  &nbsp;
+  <img src="media/live_detection.png" width="300" alt="Live detection: marble bounded at 0.89 confidence, servos running, cycle counter">
 </p>
+<p align="center"><em>Left: full system cycle (1.5× speed). Right: Pi camera view with live YOLO26 detection.</em></p>
 
 ---
 
