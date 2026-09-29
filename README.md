@@ -109,5 +109,3 @@ Losses converge smoothly over 100 epochs. The early validation-loss spike came f
 
 - **Known limitations:** partial occlusion at steep entry angles, glare under strong direct light, single-class model, and 9600-baud serial latency.
 - **Next steps:** Coral Edge TPU for faster inference (so the IR trigger isn't needed), an exit-chute sensor for closed-loop verification, 115200 baud, and a web dashboard for remote monitoring.
-
-*Development note: portions of the control software were written with AI assistance. I integrated, debugged, and tuned them on the hardware.*
